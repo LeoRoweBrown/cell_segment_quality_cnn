@@ -1,0 +1,10 @@
+# contents of data folders
+data/*
+data_plots/*
+
+# python
+__pycache__/
+
+# images 
+*.png
+*.tif

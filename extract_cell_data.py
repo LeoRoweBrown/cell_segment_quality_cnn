@@ -5,6 +5,7 @@ from glob import glob
 import os
 import re
 import napari
+import cv2
 
 def search_for_runs(path):
     print("searching", f'{path}/*/*/cst*/run_*')
@@ -143,53 +144,96 @@ def save_rois(save_path, mask_rois, data_rois, data_rois_masked=None):
         if data_rois_masked is not None:
            tiff.imwrite(save_path_data_masked, data_rois_masked[n], metadata={'axes': 'ZYX'}) 
 
-def get_projections(img, max_project=False):
-    if max_project:
+def get_projections(img, project_mode='max', slice_idx=[None,None,None]):
+    for n in range(len(slice_idx)):
+        slice_idx[n] = int(img.shape[n]//2) if slice_idx[n] is None else slice_idx[n]
+    if project_mode=='max':
         xy = np.max(img, 0)
         xz = np.max(img, 1)
         yz = np.max(img, 2)
+    elif project_mode=='com_slice':
+        xy = img[slice_idx[0], :, :]
+        xz = img[:, slice_idx[1], :]
+        yz = img[:, :,  slice_idx[2]]
     else:
         xy = img[int(img.shape[0]//2), :, :]
         xz = img[:, int(img.shape[1]//2), :]
         yz = img[:, :,  int(img.shape[2]//2)]
     return [xy, xz, yz]
 
-def save_plots(save_path, mask_rois, data_rois, data_rois_masked=None, max_project=True):
+def save_plots(save_path, mask_rois, data_rois, data_rois_masked=None, project_mode='com_slice', draw_outlines=True, vmax=350):
     print(f"saving plots in {save_path}")
     os.makedirs(save_path, exist_ok=True)
+    vmax_ = vmax
     for n in range(len(mask_rois)):
         save_path_r = os.path.join(save_path, f'roi_{n:03d}.png')
 
         if data_rois_masked is not None:
-            fig, ((ax1, ax2, ax1b, ax2b, ax1c, ax2c), (ax3, ax4, ax3b, ax4b, ax3c, ax4c)) = plt.subplots(2,6)
+            fig, ((ax1, ax2, ax1b, ax2b, ax1c, ax2c), (ax3, ax4, ax3b, ax4b, ax3c, ax4c)) = plt.subplots(2,6, layout='compressed')
             ax4c.set_visible(False)
         else:
-            fig, ((ax1, ax2, ax1b, ax2b), (ax3, ax4, ax3b, ax4b)) = plt.subplots(2,4)
+            fig, ((ax1, ax2, ax1b, ax2b), (ax3, ax4, ax3b, ax4b)) = plt.subplots(2,4, layout='compressed')
         fig.set_tight_layout(True)
         ax4.set_visible(False)
         ax4b.set_visible(False)
 
+        slice_idx = [None, None, None]
         mask_roi = mask_rois[n]
-        mask_xy, mask_xz, mask_yz = get_projections(mask_roi, max_project=max_project)
+        if project_mode == 'com_slice':
+            z_indices, y_indices, x_indices = np.indices(mask_roi.shape)  # 3d matrices of indices a bit like meshgrid but 1d
+            total_mass = np.sum(mask_roi)
+            x_cm = int(np.round(np.sum(x_indices * mask_roi) / total_mass))
+            y_cm = int(np.round(np.sum(y_indices * mask_roi) / total_mass))
+            z_cm = int(np.round(np.sum(z_indices * mask_roi) / total_mass))
+            slice_idx = [z_cm, y_cm, x_cm]
+        mask_xy, mask_xz, mask_yz = get_projections(mask_roi, project_mode=project_mode, slice_idx=slice_idx)
 
         ax1.imshow(mask_xy, vmin=0, vmax=1)
         ax2.imshow(mask_xz, vmin=0, vmax=1)
         ax3.imshow(mask_yz, vmin=0, vmax=1)
         
+        # get outlines from mask
+        contours_xy, _ = cv2.findContours(mask_xy.astype(np.uint8), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        contours_xz, _ = cv2.findContours(mask_xz.astype(np.uint8), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        contours_yz, _ = cv2.findContours(mask_yz.astype(np.uint8), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
         data_roi = data_rois[n]
-        data_xy, data_xz, data_yz = get_projections(data_roi, max_project=max_project)
+        data_xy, data_xz, data_yz = get_projections(data_roi, project_mode=project_mode, slice_idx=slice_idx)
 
-        ax1b.imshow(data_xy)
-        ax2b.imshow(data_xz)
-        ax3b.imshow(data_yz)
+        if vmax == 0 or vmax is None:
+            vmax_ = (np.max(data_xy) + np.max(data_xz) + np.max(data_yz)) / 3
+            print("auto vmax =", vmax_)
+        if draw_outlines:
+            # values that equal vmax -> 255, so vals/vmax then * 255
+            data_xy = np.clip(np.asarray(data_xy, dtype=np.float64)*(255/vmax_), 0, 255)  # convert to 8bit
+            data_xz = np.clip(np.asarray(data_xz, dtype=np.float64)*(255/vmax_), 0, 255)
+            data_yz = np.clip(np.asarray(data_yz, dtype=np.float64)*(255/vmax_), 0, 255)
+            # print(data_xy)
+            data_xy = cv2.cvtColor(np.asarray(data_xy, dtype=np.uint8), cv2.COLOR_GRAY2BGR)
+            data_xz = cv2.cvtColor(np.asarray(data_xz, dtype=np.uint8), cv2.COLOR_GRAY2BGR)
+            data_yz = cv2.cvtColor(np.asarray(data_yz, dtype=np.uint8), cv2.COLOR_GRAY2BGR)
+            cv2.drawContours(data_xy, contours_xy, -1, [255,0,0], 1)
+            cv2.drawContours(data_xz, contours_xz, -1, [255,0,0], 1)
+            cv2.drawContours(data_yz, contours_yz, -1, [255,0,0], 1)
 
+            ax1b.imshow(data_xy, vmax=255)
+            ax2b.imshow(data_xz, vmax=255)
+            ax3b.imshow(data_yz, vmax=255)
+
+        ax1b.imshow(data_xy, vmax=vmax_)
+        ax2b.imshow(data_xz, vmax=vmax_)
+        ax3b.imshow(data_yz, vmax=vmax_)
+
+        # Plot the masked cells
         if data_rois_masked is not None:
             data_roi_m = data_rois_masked[n]
-            data_m_xy, data_m_xz, data_m_yz = get_projections(data_roi_m, max_project=max_project)
+            data_m_xy, data_m_xz, data_m_yz = get_projections(data_roi_m, project_mode=project_mode, slice_idx=slice_idx)
 
-            ax1c.imshow(data_m_xy)
-            ax2c.imshow(data_m_xz)
-            ax3c.imshow(data_m_yz)
+            ax1c.imshow(data_m_xy, vmax=vmax)
+            ax2c.imshow(data_m_xz, vmax=vmax)
+            ax3c.imshow(data_m_yz, vmax=vmax)
+
+
         fig.savefig(save_path_r)
         plt.close()
             

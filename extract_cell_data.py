@@ -202,7 +202,7 @@ def save_plots(save_path, mask_rois, data_rois, data_rois_masked=None, project_m
 
         if vmax == 0 or vmax is None:
             vmax_ = (np.max(data_xy) + np.max(data_xz) + np.max(data_yz)) / 3
-            print("auto vmax =", vmax_)
+            # print("auto vmax =", vmax_)
         if draw_outlines:
             # values that equal vmax -> 255, so vals/vmax then * 255
             data_xy = np.clip(np.asarray(data_xy, dtype=np.float64)*(255/vmax_), 0, 255)  # convert to 8bit

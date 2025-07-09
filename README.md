@@ -8,3 +8,6 @@ WIP!
 - [Training script](train_example.py) to train model with Datasets containing ratings and 2-channel ROIs (mask and fluorescence channel)
 - [Inference script](eval_script.py) to get CNN classifier output (i.e., segmentation ratings between 0 and 1) 
 - [CNN Model Code](model.py)
+
+## GUI example
+![image](https://github.com/user-attachments/assets/8ea65254-16d8-4a37-9d80-a48e510c35ae)

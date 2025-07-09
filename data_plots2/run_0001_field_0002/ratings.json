@@ -1,0 +1,1682 @@
+[
+    {
+        "index": 0,
+        "filename": "roi_000.png",
+        "rating": 2
+    },
+    {
+        "index": 1,
+        "filename": "roi_001.png",
+        "rating": 1
+    },
+    {
+        "index": 2,
+        "filename": "roi_002.png",
+        "rating": 2
+    },
+    {
+        "index": 3,
+        "filename": "roi_003.png",
+        "rating": 2
+    },
+    {
+        "index": 4,
+        "filename": "roi_004.png",
+        "rating": 2
+    },
+    {
+        "index": 5,
+        "filename": "roi_005.png",
+        "rating": 0
+    },
+    {
+        "index": 6,
+        "filename": "roi_006.png",
+        "rating": 2
+    },
+    {
+        "index": 7,
+        "filename": "roi_007.png",
+        "rating": 2
+    },
+    {
+        "index": 8,
+        "filename": "roi_008.png",
+        "rating": 2
+    },
+    {
+        "index": 9,
+        "filename": "roi_009.png",
+        "rating": 0
+    },
+    {
+        "index": 10,
+        "filename": "roi_010.png",
+        "rating": 2
+    },
+    {
+        "index": 11,
+        "filename": "roi_011.png",
+        "rating": 0
+    },
+    {
+        "index": 12,
+        "filename": "roi_012.png",
+        "rating": 2
+    },
+    {
+        "index": 13,
+        "filename": "roi_013.png",
+        "rating": 0
+    },
+    {
+        "index": 14,
+        "filename": "roi_014.png",
+        "rating": 2
+    },
+    {
+        "index": 15,
+        "filename": "roi_015.png",
+        "rating": 0
+    },
+    {
+        "index": 16,
+        "filename": "roi_016.png",
+        "rating": 2
+    },
+    {
+        "index": 17,
+        "filename": "roi_017.png",
+        "rating": 0
+    },
+    {
+        "index": 18,
+        "filename": "roi_018.png",
+        "rating": 2
+    },
+    {
+        "index": 19,
+        "filename": "roi_019.png",
+        "rating": 0
+    },
+    {
+        "index": 20,
+        "filename": "roi_020.png",
+        "rating": 0
+    },
+    {
+        "index": 21,
+        "filename": "roi_021.png",
+        "rating": 2
+    },
+    {
+        "index": 22,
+        "filename": "roi_022.png",
+        "rating": 2
+    },
+    {
+        "index": 23,
+        "filename": "roi_023.png",
+        "rating": 0
+    },
+    {
+        "index": 24,
+        "filename": "roi_024.png",
+        "rating": 2
+    },
+    {
+        "index": 25,
+        "filename": "roi_025.png",
+        "rating": 0
+    },
+    {
+        "index": 26,
+        "filename": "roi_026.png",
+        "rating": 2
+    },
+    {
+        "index": 27,
+        "filename": "roi_027.png",
+        "rating": 0
+    },
+    {
+        "index": 28,
+        "filename": "roi_028.png",
+        "rating": 2
+    },
+    {
+        "index": 29,
+        "filename": "roi_029.png",
+        "rating": 2
+    },
+    {
+        "index": 30,
+        "filename": "roi_030.png",
+        "rating": 2
+    },
+    {
+        "index": 31,
+        "filename": "roi_031.png",
+        "rating": 0
+    },
+    {
+        "index": 32,
+        "filename": "roi_032.png",
+        "rating": 0
+    },
+    {
+        "index": 33,
+        "filename": "roi_033.png",
+        "rating": 2
+    },
+    {
+        "index": 34,
+        "filename": "roi_034.png",
+        "rating": 2
+    },
+    {
+        "index": 35,
+        "filename": "roi_035.png",
+        "rating": 2
+    },
+    {
+        "index": 36,
+        "filename": "roi_036.png",
+        "rating": 2
+    },
+    {
+        "index": 37,
+        "filename": "roi_037.png",
+        "rating": 2
+    },
+    {
+        "index": 38,
+        "filename": "roi_038.png",
+        "rating": 2
+    },
+    {
+        "index": 39,
+        "filename": "roi_039.png",
+        "rating": 0
+    },
+    {
+        "index": 40,
+        "filename": "roi_040.png",
+        "rating": 2
+    },
+    {
+        "index": 41,
+        "filename": "roi_041.png",
+        "rating": 2
+    },
+    {
+        "index": 42,
+        "filename": "roi_042.png",
+        "rating": 2
+    },
+    {
+        "index": 43,
+        "filename": "roi_043.png",
+        "rating": 2
+    },
+    {
+        "index": 44,
+        "filename": "roi_044.png",
+        "rating": 2
+    },
+    {
+        "index": 45,
+        "filename": "roi_045.png",
+        "rating": 2
+    },
+    {
+        "index": 46,
+        "filename": "roi_046.png",
+        "rating": 2
+    },
+    {
+        "index": 47,
+        "filename": "roi_047.png",
+        "rating": 2
+    },
+    {
+        "index": 48,
+        "filename": "roi_048.png",
+        "rating": 2
+    },
+    {
+        "index": 49,
+        "filename": "roi_049.png",
+        "rating": 0
+    },
+    {
+        "index": 50,
+        "filename": "roi_050.png",
+        "rating": 2
+    },
+    {
+        "index": 51,
+        "filename": "roi_051.png",
+        "rating": 2
+    },
+    {
+        "index": 52,
+        "filename": "roi_052.png",
+        "rating": 2
+    },
+    {
+        "index": 53,
+        "filename": "roi_053.png",
+        "rating": 0
+    },
+    {
+        "index": 54,
+        "filename": "roi_054.png",
+        "rating": 2
+    },
+    {
+        "index": 55,
+        "filename": "roi_055.png",
+        "rating": 2
+    },
+    {
+        "index": 56,
+        "filename": "roi_056.png",
+        "rating": 2
+    },
+    {
+        "index": 57,
+        "filename": "roi_057.png",
+        "rating": 2
+    },
+    {
+        "index": 58,
+        "filename": "roi_058.png",
+        "rating": 0
+    },
+    {
+        "index": 59,
+        "filename": "roi_059.png",
+        "rating": 2
+    },
+    {
+        "index": 60,
+        "filename": "roi_060.png",
+        "rating": 1
+    },
+    {
+        "index": 61,
+        "filename": "roi_061.png",
+        "rating": 0
+    },
+    {
+        "index": 62,
+        "filename": "roi_062.png",
+        "rating": 2
+    },
+    {
+        "index": 63,
+        "filename": "roi_063.png",
+        "rating": 2
+    },
+    {
+        "index": 64,
+        "filename": "roi_064.png",
+        "rating": 2
+    },
+    {
+        "index": 65,
+        "filename": "roi_065.png",
+        "rating": 1
+    },
+    {
+        "index": 66,
+        "filename": "roi_066.png",
+        "rating": 2
+    },
+    {
+        "index": 67,
+        "filename": "roi_067.png",
+        "rating": 0
+    },
+    {
+        "index": 68,
+        "filename": "roi_068.png",
+        "rating": 2
+    },
+    {
+        "index": 69,
+        "filename": "roi_069.png",
+        "rating": 1
+    },
+    {
+        "index": 70,
+        "filename": "roi_070.png",
+        "rating": 1
+    },
+    {
+        "index": 71,
+        "filename": "roi_071.png",
+        "rating": 2
+    },
+    {
+        "index": 72,
+        "filename": "roi_072.png",
+        "rating": 0
+    },
+    {
+        "index": 73,
+        "filename": "roi_073.png",
+        "rating": 0
+    },
+    {
+        "index": 74,
+        "filename": "roi_074.png",
+        "rating": 1
+    },
+    {
+        "index": 75,
+        "filename": "roi_075.png",
+        "rating": 1
+    },
+    {
+        "index": 76,
+        "filename": "roi_076.png",
+        "rating": 2
+    },
+    {
+        "index": 77,
+        "filename": "roi_077.png",
+        "rating": 2
+    },
+    {
+        "index": 78,
+        "filename": "roi_078.png",
+        "rating": 2
+    },
+    {
+        "index": 79,
+        "filename": "roi_079.png",
+        "rating": 2
+    },
+    {
+        "index": 80,
+        "filename": "roi_080.png",
+        "rating": 1
+    },
+    {
+        "index": 81,
+        "filename": "roi_081.png",
+        "rating": 2
+    },
+    {
+        "index": 82,
+        "filename": "roi_082.png",
+        "rating": 2
+    },
+    {
+        "index": 83,
+        "filename": "roi_083.png",
+        "rating": 1
+    },
+    {
+        "index": 84,
+        "filename": "roi_084.png",
+        "rating": 2
+    },
+    {
+        "index": 85,
+        "filename": "roi_085.png",
+        "rating": 0
+    },
+    {
+        "index": 86,
+        "filename": "roi_086.png",
+        "rating": 0
+    },
+    {
+        "index": 87,
+        "filename": "roi_087.png",
+        "rating": 0
+    },
+    {
+        "index": 88,
+        "filename": "roi_088.png",
+        "rating": 0
+    },
+    {
+        "index": 89,
+        "filename": "roi_089.png",
+        "rating": 1
+    },
+    {
+        "index": 90,
+        "filename": "roi_090.png",
+        "rating": 2
+    },
+    {
+        "index": 91,
+        "filename": "roi_091.png",
+        "rating": 0
+    },
+    {
+        "index": 92,
+        "filename": "roi_092.png",
+        "rating": 2
+    },
+    {
+        "index": 93,
+        "filename": "roi_093.png",
+        "rating": 2
+    },
+    {
+        "index": 94,
+        "filename": "roi_094.png",
+        "rating": 2
+    },
+    {
+        "index": 95,
+        "filename": "roi_095.png",
+        "rating": 2
+    },
+    {
+        "index": 96,
+        "filename": "roi_096.png",
+        "rating": 2
+    },
+    {
+        "index": 97,
+        "filename": "roi_097.png",
+        "rating": 2
+    },
+    {
+        "index": 98,
+        "filename": "roi_098.png",
+        "rating": 2
+    },
+    {
+        "index": 99,
+        "filename": "roi_099.png",
+        "rating": 2
+    },
+    {
+        "index": 100,
+        "filename": "roi_100.png",
+        "rating": 2
+    },
+    {
+        "index": 101,
+        "filename": "roi_101.png",
+        "rating": 0
+    },
+    {
+        "index": 102,
+        "filename": "roi_102.png",
+        "rating": 0
+    },
+    {
+        "index": 103,
+        "filename": "roi_103.png",
+        "rating": 0
+    },
+    {
+        "index": 104,
+        "filename": "roi_104.png",
+        "rating": 2
+    },
+    {
+        "index": 105,
+        "filename": "roi_105.png",
+        "rating": 2
+    },
+    {
+        "index": 106,
+        "filename": "roi_106.png",
+        "rating": 0
+    },
+    {
+        "index": 107,
+        "filename": "roi_107.png",
+        "rating": 0
+    },
+    {
+        "index": 108,
+        "filename": "roi_108.png",
+        "rating": 0
+    },
+    {
+        "index": 109,
+        "filename": "roi_109.png",
+        "rating": 2
+    },
+    {
+        "index": 110,
+        "filename": "roi_110.png",
+        "rating": 0
+    },
+    {
+        "index": 111,
+        "filename": "roi_111.png",
+        "rating": 0
+    },
+    {
+        "index": 112,
+        "filename": "roi_112.png",
+        "rating": 2
+    },
+    {
+        "index": 113,
+        "filename": "roi_113.png",
+        "rating": 0
+    },
+    {
+        "index": 114,
+        "filename": "roi_114.png",
+        "rating": 1
+    },
+    {
+        "index": 115,
+        "filename": "roi_115.png",
+        "rating": 2
+    },
+    {
+        "index": 116,
+        "filename": "roi_116.png",
+        "rating": 1
+    },
+    {
+        "index": 117,
+        "filename": "roi_117.png",
+        "rating": 2
+    },
+    {
+        "index": 118,
+        "filename": "roi_118.png",
+        "rating": 0
+    },
+    {
+        "index": 119,
+        "filename": "roi_119.png",
+        "rating": 2
+    },
+    {
+        "index": 120,
+        "filename": "roi_120.png",
+        "rating": 2
+    },
+    {
+        "index": 121,
+        "filename": "roi_121.png",
+        "rating": 2
+    },
+    {
+        "index": 122,
+        "filename": "roi_122.png",
+        "rating": 1
+    },
+    {
+        "index": 123,
+        "filename": "roi_123.png",
+        "rating": 0
+    },
+    {
+        "index": 124,
+        "filename": "roi_124.png",
+        "rating": 2
+    },
+    {
+        "index": 125,
+        "filename": "roi_125.png",
+        "rating": 2
+    },
+    {
+        "index": 126,
+        "filename": "roi_126.png",
+        "rating": 0
+    },
+    {
+        "index": 127,
+        "filename": "roi_127.png",
+        "rating": 0
+    },
+    {
+        "index": 128,
+        "filename": "roi_128.png",
+        "rating": 1
+    },
+    {
+        "index": 129,
+        "filename": "roi_129.png",
+        "rating": 0
+    },
+    {
+        "index": 130,
+        "filename": "roi_130.png",
+        "rating": 2
+    },
+    {
+        "index": 131,
+        "filename": "roi_131.png",
+        "rating": 0
+    },
+    {
+        "index": 132,
+        "filename": "roi_132.png",
+        "rating": 2
+    },
+    {
+        "index": 133,
+        "filename": "roi_133.png",
+        "rating": 2
+    },
+    {
+        "index": 134,
+        "filename": "roi_134.png",
+        "rating": 1
+    },
+    {
+        "index": 135,
+        "filename": "roi_135.png",
+        "rating": 1
+    },
+    {
+        "index": 136,
+        "filename": "roi_136.png",
+        "rating": 0
+    },
+    {
+        "index": 137,
+        "filename": "roi_137.png",
+        "rating": 2
+    },
+    {
+        "index": 138,
+        "filename": "roi_138.png",
+        "rating": 1
+    },
+    {
+        "index": 139,
+        "filename": "roi_139.png",
+        "rating": 2
+    },
+    {
+        "index": 140,
+        "filename": "roi_140.png",
+        "rating": 0
+    },
+    {
+        "index": 141,
+        "filename": "roi_141.png",
+        "rating": 2
+    },
+    {
+        "index": 142,
+        "filename": "roi_142.png",
+        "rating": 2
+    },
+    {
+        "index": 143,
+        "filename": "roi_143.png",
+        "rating": 2
+    },
+    {
+        "index": 144,
+        "filename": "roi_144.png",
+        "rating": 2
+    },
+    {
+        "index": 145,
+        "filename": "roi_145.png",
+        "rating": 2
+    },
+    {
+        "index": 146,
+        "filename": "roi_146.png",
+        "rating": 2
+    },
+    {
+        "index": 147,
+        "filename": "roi_147.png",
+        "rating": 0
+    },
+    {
+        "index": 148,
+        "filename": "roi_148.png",
+        "rating": 0
+    },
+    {
+        "index": 149,
+        "filename": "roi_149.png",
+        "rating": 0
+    },
+    {
+        "index": 150,
+        "filename": "roi_150.png",
+        "rating": 1
+    },
+    {
+        "index": 151,
+        "filename": "roi_151.png",
+        "rating": 2
+    },
+    {
+        "index": 152,
+        "filename": "roi_152.png",
+        "rating": 2
+    },
+    {
+        "index": 153,
+        "filename": "roi_153.png",
+        "rating": 1
+    },
+    {
+        "index": 154,
+        "filename": "roi_154.png",
+        "rating": 2
+    },
+    {
+        "index": 155,
+        "filename": "roi_155.png",
+        "rating": 1
+    },
+    {
+        "index": 156,
+        "filename": "roi_156.png",
+        "rating": 1
+    },
+    {
+        "index": 157,
+        "filename": "roi_157.png",
+        "rating": 2
+    },
+    {
+        "index": 158,
+        "filename": "roi_158.png",
+        "rating": 2
+    },
+    {
+        "index": 159,
+        "filename": "roi_159.png",
+        "rating": 1
+    },
+    {
+        "index": 160,
+        "filename": "roi_160.png",
+        "rating": 2
+    },
+    {
+        "index": 161,
+        "filename": "roi_161.png",
+        "rating": 2
+    },
+    {
+        "index": 162,
+        "filename": "roi_162.png",
+        "rating": 0
+    },
+    {
+        "index": 163,
+        "filename": "roi_163.png",
+        "rating": 2
+    },
+    {
+        "index": 164,
+        "filename": "roi_164.png",
+        "rating": 2
+    },
+    {
+        "index": 165,
+        "filename": "roi_165.png",
+        "rating": 0
+    },
+    {
+        "index": 166,
+        "filename": "roi_166.png",
+        "rating": 2
+    },
+    {
+        "index": 167,
+        "filename": "roi_167.png",
+        "rating": 1
+    },
+    {
+        "index": 168,
+        "filename": "roi_168.png",
+        "rating": 2
+    },
+    {
+        "index": 169,
+        "filename": "roi_169.png",
+        "rating": 0
+    },
+    {
+        "index": 170,
+        "filename": "roi_170.png",
+        "rating": 0
+    },
+    {
+        "index": 171,
+        "filename": "roi_171.png",
+        "rating": 0
+    },
+    {
+        "index": 172,
+        "filename": "roi_172.png",
+        "rating": 1
+    },
+    {
+        "index": 173,
+        "filename": "roi_173.png",
+        "rating": 0
+    },
+    {
+        "index": 174,
+        "filename": "roi_174.png",
+        "rating": 0
+    },
+    {
+        "index": 175,
+        "filename": "roi_175.png",
+        "rating": 1
+    },
+    {
+        "index": 176,
+        "filename": "roi_176.png",
+        "rating": 1
+    },
+    {
+        "index": 177,
+        "filename": "roi_177.png",
+        "rating": 0
+    },
+    {
+        "index": 178,
+        "filename": "roi_178.png",
+        "rating": 2
+    },
+    {
+        "index": 179,
+        "filename": "roi_179.png",
+        "rating": 1
+    },
+    {
+        "index": 180,
+        "filename": "roi_180.png",
+        "rating": 2
+    },
+    {
+        "index": 181,
+        "filename": "roi_181.png",
+        "rating": 2
+    },
+    {
+        "index": 182,
+        "filename": "roi_182.png",
+        "rating": 0
+    },
+    {
+        "index": 183,
+        "filename": "roi_183.png",
+        "rating": 2
+    },
+    {
+        "index": 184,
+        "filename": "roi_184.png",
+        "rating": 0
+    },
+    {
+        "index": 185,
+        "filename": "roi_185.png",
+        "rating": 2
+    },
+    {
+        "index": 186,
+        "filename": "roi_186.png",
+        "rating": 1
+    },
+    {
+        "index": 187,
+        "filename": "roi_187.png",
+        "rating": 2
+    },
+    {
+        "index": 188,
+        "filename": "roi_188.png",
+        "rating": 0
+    },
+    {
+        "index": 189,
+        "filename": "roi_189.png",
+        "rating": 0
+    },
+    {
+        "index": 190,
+        "filename": "roi_190.png",
+        "rating": 2
+    },
+    {
+        "index": 191,
+        "filename": "roi_191.png",
+        "rating": 2
+    },
+    {
+        "index": 192,
+        "filename": "roi_192.png",
+        "rating": 2
+    },
+    {
+        "index": 193,
+        "filename": "roi_193.png",
+        "rating": 2
+    },
+    {
+        "index": 194,
+        "filename": "roi_194.png",
+        "rating": 1
+    },
+    {
+        "index": 195,
+        "filename": "roi_195.png",
+        "rating": 1
+    },
+    {
+        "index": 196,
+        "filename": "roi_196.png",
+        "rating": 1
+    },
+    {
+        "index": 197,
+        "filename": "roi_197.png",
+        "rating": 2
+    },
+    {
+        "index": 198,
+        "filename": "roi_198.png",
+        "rating": 2
+    },
+    {
+        "index": 199,
+        "filename": "roi_199.png",
+        "rating": 2
+    },
+    {
+        "index": 200,
+        "filename": "roi_200.png",
+        "rating": 2
+    },
+    {
+        "index": 201,
+        "filename": "roi_201.png",
+        "rating": 2
+    },
+    {
+        "index": 202,
+        "filename": "roi_202.png",
+        "rating": 2
+    },
+    {
+        "index": 203,
+        "filename": "roi_203.png",
+        "rating": 2
+    },
+    {
+        "index": 204,
+        "filename": "roi_204.png",
+        "rating": 1
+    },
+    {
+        "index": 205,
+        "filename": "roi_205.png",
+        "rating": 2
+    },
+    {
+        "index": 206,
+        "filename": "roi_206.png",
+        "rating": 0
+    },
+    {
+        "index": 207,
+        "filename": "roi_207.png",
+        "rating": 2
+    },
+    {
+        "index": 208,
+        "filename": "roi_208.png",
+        "rating": 1
+    },
+    {
+        "index": 209,
+        "filename": "roi_209.png",
+        "rating": 2
+    },
+    {
+        "index": 210,
+        "filename": "roi_210.png",
+        "rating": 2
+    },
+    {
+        "index": 211,
+        "filename": "roi_211.png",
+        "rating": 1
+    },
+    {
+        "index": 212,
+        "filename": "roi_212.png",
+        "rating": 0
+    },
+    {
+        "index": 213,
+        "filename": "roi_213.png",
+        "rating": 1
+    },
+    {
+        "index": 214,
+        "filename": "roi_214.png",
+        "rating": 2
+    },
+    {
+        "index": 215,
+        "filename": "roi_215.png",
+        "rating": 0
+    },
+    {
+        "index": 216,
+        "filename": "roi_216.png",
+        "rating": 1
+    },
+    {
+        "index": 217,
+        "filename": "roi_217.png",
+        "rating": 2
+    },
+    {
+        "index": 218,
+        "filename": "roi_218.png",
+        "rating": 2
+    },
+    {
+        "index": 219,
+        "filename": "roi_219.png",
+        "rating": 1
+    },
+    {
+        "index": 220,
+        "filename": "roi_220.png",
+        "rating": 0
+    },
+    {
+        "index": 221,
+        "filename": "roi_221.png",
+        "rating": 2
+    },
+    {
+        "index": 222,
+        "filename": "roi_222.png",
+        "rating": 2
+    },
+    {
+        "index": 223,
+        "filename": "roi_223.png",
+        "rating": 0
+    },
+    {
+        "index": 224,
+        "filename": "roi_224.png",
+        "rating": 0
+    },
+    {
+        "index": 225,
+        "filename": "roi_225.png",
+        "rating": 2
+    },
+    {
+        "index": 226,
+        "filename": "roi_226.png",
+        "rating": 0
+    },
+    {
+        "index": 227,
+        "filename": "roi_227.png",
+        "rating": 2
+    },
+    {
+        "index": 228,
+        "filename": "roi_228.png",
+        "rating": 2
+    },
+    {
+        "index": 229,
+        "filename": "roi_229.png",
+        "rating": 2
+    },
+    {
+        "index": 230,
+        "filename": "roi_230.png",
+        "rating": 2
+    },
+    {
+        "index": 231,
+        "filename": "roi_231.png",
+        "rating": 2
+    },
+    {
+        "index": 232,
+        "filename": "roi_232.png",
+        "rating": 1
+    },
+    {
+        "index": 233,
+        "filename": "roi_233.png",
+        "rating": 0
+    },
+    {
+        "index": 234,
+        "filename": "roi_234.png",
+        "rating": 2
+    },
+    {
+        "index": 235,
+        "filename": "roi_235.png",
+        "rating": 2
+    },
+    {
+        "index": 236,
+        "filename": "roi_236.png",
+        "rating": 0
+    },
+    {
+        "index": 237,
+        "filename": "roi_237.png",
+        "rating": 0
+    },
+    {
+        "index": 238,
+        "filename": "roi_238.png",
+        "rating": 2
+    },
+    {
+        "index": 239,
+        "filename": "roi_239.png",
+        "rating": 2
+    },
+    {
+        "index": 240,
+        "filename": "roi_240.png",
+        "rating": 0
+    },
+    {
+        "index": 241,
+        "filename": "roi_241.png",
+        "rating": 2
+    },
+    {
+        "index": 242,
+        "filename": "roi_242.png",
+        "rating": 0
+    },
+    {
+        "index": 243,
+        "filename": "roi_243.png",
+        "rating": 1
+    },
+    {
+        "index": 244,
+        "filename": "roi_244.png",
+        "rating": 1
+    },
+    {
+        "index": 245,
+        "filename": "roi_245.png",
+        "rating": 2
+    },
+    {
+        "index": 246,
+        "filename": "roi_246.png",
+        "rating": 2
+    },
+    {
+        "index": 247,
+        "filename": "roi_247.png",
+        "rating": 2
+    },
+    {
+        "index": 248,
+        "filename": "roi_248.png",
+        "rating": 0
+    },
+    {
+        "index": 249,
+        "filename": "roi_249.png",
+        "rating": 2
+    },
+    {
+        "index": 250,
+        "filename": "roi_250.png",
+        "rating": 2
+    },
+    {
+        "index": 251,
+        "filename": "roi_251.png",
+        "rating": 2
+    },
+    {
+        "index": 252,
+        "filename": "roi_252.png",
+        "rating": 2
+    },
+    {
+        "index": 253,
+        "filename": "roi_253.png",
+        "rating": 1
+    },
+    {
+        "index": 254,
+        "filename": "roi_254.png",
+        "rating": 2
+    },
+    {
+        "index": 255,
+        "filename": "roi_255.png",
+        "rating": 0
+    },
+    {
+        "index": 256,
+        "filename": "roi_256.png",
+        "rating": 1
+    },
+    {
+        "index": 257,
+        "filename": "roi_257.png",
+        "rating": 1
+    },
+    {
+        "index": 258,
+        "filename": "roi_258.png",
+        "rating": 1
+    },
+    {
+        "index": 259,
+        "filename": "roi_259.png",
+        "rating": 0
+    },
+    {
+        "index": 260,
+        "filename": "roi_260.png",
+        "rating": 2
+    },
+    {
+        "index": 261,
+        "filename": "roi_261.png",
+        "rating": 0
+    },
+    {
+        "index": 262,
+        "filename": "roi_262.png",
+        "rating": 0
+    },
+    {
+        "index": 263,
+        "filename": "roi_263.png",
+        "rating": 0
+    },
+    {
+        "index": 264,
+        "filename": "roi_264.png",
+        "rating": 0
+    },
+    {
+        "index": 265,
+        "filename": "roi_265.png",
+        "rating": 0
+    },
+    {
+        "index": 266,
+        "filename": "roi_266.png",
+        "rating": 0
+    },
+    {
+        "index": 267,
+        "filename": "roi_267.png",
+        "rating": 2
+    },
+    {
+        "index": 268,
+        "filename": "roi_268.png",
+        "rating": 2
+    },
+    {
+        "index": 269,
+        "filename": "roi_269.png",
+        "rating": 2
+    },
+    {
+        "index": 270,
+        "filename": "roi_270.png",
+        "rating": 2
+    },
+    {
+        "index": 271,
+        "filename": "roi_271.png",
+        "rating": 2
+    },
+    {
+        "index": 272,
+        "filename": "roi_272.png",
+        "rating": 0
+    },
+    {
+        "index": 273,
+        "filename": "roi_273.png",
+        "rating": 0
+    },
+    {
+        "index": 274,
+        "filename": "roi_274.png",
+        "rating": 0
+    },
+    {
+        "index": 275,
+        "filename": "roi_275.png",
+        "rating": 2
+    },
+    {
+        "index": 276,
+        "filename": "roi_276.png",
+        "rating": 0
+    },
+    {
+        "index": 277,
+        "filename": "roi_277.png",
+        "rating": 0
+    },
+    {
+        "index": 278,
+        "filename": "roi_278.png",
+        "rating": 2
+    },
+    {
+        "index": 279,
+        "filename": "roi_279.png",
+        "rating": 0
+    },
+    {
+        "index": 280,
+        "filename": "roi_280.png",
+        "rating": 2
+    },
+    {
+        "index": 281,
+        "filename": "roi_281.png",
+        "rating": 1
+    },
+    {
+        "index": 282,
+        "filename": "roi_282.png",
+        "rating": 0
+    },
+    {
+        "index": 283,
+        "filename": "roi_283.png",
+        "rating": 2
+    },
+    {
+        "index": 284,
+        "filename": "roi_284.png",
+        "rating": 2
+    },
+    {
+        "index": 285,
+        "filename": "roi_285.png",
+        "rating": 2
+    },
+    {
+        "index": 286,
+        "filename": "roi_286.png",
+        "rating": 2
+    },
+    {
+        "index": 287,
+        "filename": "roi_287.png",
+        "rating": 2
+    },
+    {
+        "index": 288,
+        "filename": "roi_288.png",
+        "rating": 2
+    },
+    {
+        "index": 289,
+        "filename": "roi_289.png",
+        "rating": 2
+    },
+    {
+        "index": 290,
+        "filename": "roi_290.png",
+        "rating": 2
+    },
+    {
+        "index": 291,
+        "filename": "roi_291.png",
+        "rating": 2
+    },
+    {
+        "index": 292,
+        "filename": "roi_292.png",
+        "rating": 2
+    },
+    {
+        "index": 293,
+        "filename": "roi_293.png",
+        "rating": 1
+    },
+    {
+        "index": 294,
+        "filename": "roi_294.png",
+        "rating": 0
+    },
+    {
+        "index": 295,
+        "filename": "roi_295.png",
+        "rating": 2
+    },
+    {
+        "index": 296,
+        "filename": "roi_296.png",
+        "rating": 2
+    },
+    {
+        "index": 297,
+        "filename": "roi_297.png",
+        "rating": 2
+    },
+    {
+        "index": 298,
+        "filename": "roi_298.png",
+        "rating": 2
+    },
+    {
+        "index": 299,
+        "filename": "roi_299.png",
+        "rating": 0
+    },
+    {
+        "index": 300,
+        "filename": "roi_300.png",
+        "rating": 1
+    },
+    {
+        "index": 301,
+        "filename": "roi_301.png",
+        "rating": 0
+    },
+    {
+        "index": 302,
+        "filename": "roi_302.png",
+        "rating": 2
+    },
+    {
+        "index": 303,
+        "filename": "roi_303.png",
+        "rating": 1
+    },
+    {
+        "index": 304,
+        "filename": "roi_304.png",
+        "rating": 2
+    },
+    {
+        "index": 305,
+        "filename": "roi_305.png",
+        "rating": 2
+    },
+    {
+        "index": 306,
+        "filename": "roi_306.png",
+        "rating": 0
+    },
+    {
+        "index": 307,
+        "filename": "roi_307.png",
+        "rating": 1
+    },
+    {
+        "index": 308,
+        "filename": "roi_308.png",
+        "rating": 0
+    },
+    {
+        "index": 309,
+        "filename": "roi_309.png",
+        "rating": 0
+    },
+    {
+        "index": 310,
+        "filename": "roi_310.png",
+        "rating": 2
+    },
+    {
+        "index": 311,
+        "filename": "roi_311.png",
+        "rating": 2
+    },
+    {
+        "index": 312,
+        "filename": "roi_312.png",
+        "rating": 2
+    },
+    {
+        "index": 313,
+        "filename": "roi_313.png",
+        "rating": 2
+    },
+    {
+        "index": 314,
+        "filename": "roi_314.png",
+        "rating": 0
+    },
+    {
+        "index": 315,
+        "filename": "roi_315.png",
+        "rating": 1
+    },
+    {
+        "index": 316,
+        "filename": "roi_316.png",
+        "rating": 2
+    },
+    {
+        "index": 317,
+        "filename": "roi_317.png",
+        "rating": 0
+    },
+    {
+        "index": 318,
+        "filename": "roi_318.png",
+        "rating": 2
+    },
+    {
+        "index": 319,
+        "filename": "roi_319.png",
+        "rating": 1
+    },
+    {
+        "index": 320,
+        "filename": "roi_320.png",
+        "rating": 1
+    },
+    {
+        "index": 321,
+        "filename": "roi_321.png",
+        "rating": 2
+    },
+    {
+        "index": 322,
+        "filename": "roi_322.png",
+        "rating": 1
+    },
+    {
+        "index": 323,
+        "filename": "roi_323.png",
+        "rating": 1
+    },
+    {
+        "index": 324,
+        "filename": "roi_324.png",
+        "rating": 2
+    },
+    {
+        "index": 325,
+        "filename": "roi_325.png",
+        "rating": 1
+    },
+    {
+        "index": 326,
+        "filename": "roi_326.png",
+        "rating": 1
+    },
+    {
+        "index": 327,
+        "filename": "roi_327.png",
+        "rating": 2
+    },
+    {
+        "index": 328,
+        "filename": "roi_328.png",
+        "rating": 2
+    },
+    {
+        "index": 329,
+        "filename": "roi_329.png",
+        "rating": 2
+    },
+    {
+        "index": 330,
+        "filename": "roi_330.png",
+        "rating": 2
+    },
+    {
+        "index": 331,
+        "filename": "roi_331.png",
+        "rating": 2
+    },
+    {
+        "index": 332,
+        "filename": "roi_332.png",
+        "rating": 2
+    },
+    {
+        "index": 333,
+        "filename": "roi_333.png",
+        "rating": 2
+    },
+    {
+        "index": 334,
+        "filename": "roi_334.png",
+        "rating": 2
+    },
+    {
+        "index": 335,
+        "filename": "roi_335.png",
+        "rating": 2
+    }
+]
